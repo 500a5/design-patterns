@@ -1,3 +1,5 @@
 fun main() {
-    println("Helld!")
+    println( SingletonKotlin.value)
+    SingletonKotlin.function()
+
 }
