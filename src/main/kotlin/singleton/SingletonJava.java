@@ -1,3 +1,5 @@
+package singleton;
+
 public class SingletonJava {
     private static SingletonJava instance = null;
 
@@ -14,7 +16,7 @@ public class SingletonJava {
     String value = "s";
 
     void function() {
-        System.out.println("function in SingletonKotlin");
+        System.out.println("function in singleton.SingletonKotlin");
 
     }
 
