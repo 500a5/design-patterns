@@ -7,10 +7,8 @@ import factory_method.factory.IosDialog
 var dialog: Dialog? = null
 val os = "ios"
 fun main() {
-
     configure()
     runBusinessLogic()
-
 }
 
 /**
@@ -18,7 +16,7 @@ fun main() {
  * окружения.
  */
 fun configure() {
-    dialog = if (os.equals("ios") ) {
+    dialog = if (os.equals("ios")) {
         IosDialog()
     } else {
         AndroidDialog()
@@ -33,3 +31,9 @@ fun configure() {
 fun runBusinessLogic() {
     dialog?.renderWindow()
 }
+
+/**
+ * Фабричный метод — это порождающий паттерн проектирования,
+ * который определяет общий интерфейс для создания объектов в суперклассе,
+ * позволяя подклассам изменять тип создаваемых объектов.
+ */
