@@ -1,9 +1,9 @@
 package singleton
 
 object SingletonKotlin {
-    val  value  = "s"
+    val value = "s"
 
-    fun function(){
+    fun function() {
         println("function in singleton.SingletonKotlin")
 
     }

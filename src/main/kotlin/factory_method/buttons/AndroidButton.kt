@@ -7,6 +7,6 @@ class AndroidButton : Button {
     }
 
     override fun onClick() {
-       println("Нажали android кнопку")
+        println("Нажали android кнопку")
     }
 }

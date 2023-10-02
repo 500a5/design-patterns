@@ -8,7 +8,7 @@ import factory_method.buttons.Button
  * которой требуется создание разнообразных продуктов.
  */
 abstract class Dialog {
-    fun renderWindow(){
+    fun renderWindow() {
         val btn = createButton()
         btn.render()
     }

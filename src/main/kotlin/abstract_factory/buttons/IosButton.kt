@@ -1,6 +1,6 @@
 package abstract_factory.buttons
 
-class IosButton:Button {
+class IosButton : Button {
     override fun paint() {
         println(" создали  ios кнопку")
     }

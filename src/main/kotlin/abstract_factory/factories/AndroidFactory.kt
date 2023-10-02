@@ -5,7 +5,7 @@ import abstract_factory.buttons.Button
 import abstract_factory.checkboxes.AndroidCheckbox
 import abstract_factory.checkboxes.Checkbox
 
-class AndroidFactory:GUIFactory {
+class AndroidFactory : GUIFactory {
     override fun createButton(): Button {
         return AndroidButton()
     }

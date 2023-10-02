@@ -19,7 +19,7 @@ class Demo {
         return app
     }
 
-     fun main() {
+    fun main() {
         val app = configureApplication()
         app.paint()
     }

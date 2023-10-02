@@ -5,16 +5,15 @@ import abstract_factory.checkboxes.Checkbox
 import abstract_factory.factories.GUIFactory
 
 
-
 /**
  * Код, использующий фабрику, не волнует с какой конкретно фабрикой он работает.
  * Все получатели продуктов работают с продуктами через абстрактный интерфейс.
  */
-class Application ( factory: GUIFactory) {
+class Application(factory: GUIFactory) {
     private var button: Button? = null
     private var checkbox: Checkbox? = null
 
-      init {
+    init {
         button = factory.createButton()
         checkbox = factory.createCheckbox()
     }
